@@ -12,7 +12,7 @@ export default class EntryPage extends React.Component {
           <Login/>
         </div>
 
-        <div style={{backgroundImage: 'url(./Life-coaching1.jpg)', backgroundSize: 'cover', height: '80vh', display:'flex', alignItems:'center', flexWrap:'wrap', justifyContent:'space-around'}}>
+        <div style={{backgroundImage: 'url(./Life-coaching1.jpg)', backgroundSize: 'cover', height: 'auto', minHeight: '80vh', display:'flex', alignItems:'center', flexWrap:'wrap', justifyContent:'space-around'}}>
                 <div className="bodyText">
                   <div className="home-text">
                     <h1 className="entry-title"> Are you ready to realize your full potential?</h1>

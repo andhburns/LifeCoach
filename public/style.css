@@ -20,18 +20,20 @@ body{
   /*background: url(./Life-coaching1-copy.jpg);*/
   /*background-size: cover;*/
 }
-/*.parent{
+.parent{
   width: 100vw;
   height: auto;
+  min-height: 100vh;
   background-image: url(austin-dixon-38613.jpg);
   background-size: cover;
 }
 .parentHist{
   width: 100vw;
-  height: 110vh;
+  height: auto;
+  min-height: 110vh;
   background-image: url(austin-dixon-38613.jpg);
   background-size: cover;
-}*/
+}
 /*.app-container{
  width: 100vw;
  height: 100vh;
@@ -49,7 +51,7 @@ body{
 .signup-form{
   width: 50vw;
   padding: 2vw;
-  position:relative;
+  background-repeat:
 }
 
 .signup-message{
